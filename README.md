@@ -5,7 +5,7 @@ a up to date electron app template with p5js functionality
 run 
 
 npm i electron
-npm install electron_packager
+npm install electron-builder
 
 or
 

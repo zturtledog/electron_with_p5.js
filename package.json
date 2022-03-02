@@ -6,7 +6,7 @@
   "author": "Twwallow Haven Studios",
   "license": "MIT",
   "scripts": {
-    "devinit": "npm i electron && npm install electron_packager",
+    "devinit": "npm i electron && npm install electron-builder",
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
