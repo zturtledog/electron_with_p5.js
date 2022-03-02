@@ -6,3 +6,7 @@ run
 
 npm i electron
 npm install electron_packager
+
+or
+
+npm run devinit

@@ -1,11 +1,12 @@
 {
-  "name": "thinkingbox",
+  "name": "APPNAME",
   "version": "1.0.0",
   "description": "A framework for creating interactive enviroments.",
   "main": "main.js",
   "author": "Twwallow Haven Studios",
   "license": "MIT",
   "scripts": {
+    "devinit": "npm i electron && npm install electron_packager",
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
@@ -13,7 +14,7 @@
     "dist-linux": "electron-builder -l"
   },
   "build": {
-    "appId": "com.twwallowhavenstudios.thinkingbox",
+    "appId": "com.YOURAPID",
     "mac": {
       "icon": "assets/_icon.png",
       "category": "your.app.category.type"
