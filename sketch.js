@@ -9,6 +9,7 @@ function draw() {
     background("#bbbbbb")
 }
 
+//resize
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
 }
